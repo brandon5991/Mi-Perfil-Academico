@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil Académico</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f9fc;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .container {
+            flex: 1;
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            border-top: 4px solid #002147;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #002147;
+            color: white;
+            border-radius: 8px 8px 0 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+            font-weight: 500;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px 0;
+        }
+        .about-me, .schedule {
+            flex: 1 1 100%;
+            margin: 10px 0;
+            padding: 20px;
+            background-color: #f1f4f8;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+        }
+        .about-me h2, .schedule h2 {
+            margin-top: 0;
+            font-size: 1.8em;
+            color: #002147;
+            border-bottom: 3px solid #002147;
+            padding-bottom: 8px;
+            font-weight: 500;
+        }
+        p {
+            margin: 12px 0;
+            line-height: 1.6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #002147;
+            color: white;
+            font-weight: normal;
+        }
+        td {
+            background-color: #f7f9fc;
+        }
+        tr:nth-child(even) td {
+            background-color: #e9eff1;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #002147;
+            color: white;
+            font-size: 1.2em;
+            border-radius: 8px 8px 0 0;
+        }
+        @media (max-width: 768px) {
+            .about-me, .schedule {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mi Perfil Académico</h1>
+        </header>
+        
+        <div class="content">
+            <div class="about-me">
+                <h2>Información Personal</h2>
+                <p><strong>Nombres y Apellidos:</strong> Lionel Brandon Lou Mariños Acevedo</p>
+                <p><strong>Edad:</strong> 22 años</p>
+                <p><strong>Ocupación:</strong> Estudiante Universitario</p>
+                <p><strong>Universidad:</strong> Universidad Autónoma de Santo Domingo (UASD)</p>
+                <p><strong>Correo Electrónico:</strong> brandonmarinos2@gmail.com</p>
+            </div>
+            
+            <div class="schedule">
+                <h2>Horario Académico - Semestre 2024-20</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Hora</th>
+                            <th>Lunes</th>
+                            <th>Martes</th>
+                            <th>Miércoles</th>
+                            <th>Jueves</th>
+                            <th>Viernes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>7:00 - 8:00 AM</td>
+                            <td></td>
+                            <td></td>
+                            <td>Laboratorio de Lenguaje de Programación III</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>8:00 - 9:00 AM</td>
+                            <td></td>
+                            <td></td>
+                            <td>Laboratorio de Lenguaje de Programación III</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9:00 - 10:00 AM</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10:00 - 11:00 AM</td>
+                            <td></td>
+                            <td></td>
+                            <td>Laboratorio de Física para Informática</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>11:00 AM - 12:00 PM</td>
+                            <td></td>
+                            <td></td>
+                            <td>Laboratorio de Física para Informática</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>12:00 - 1:00 PM</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>1:00 - 2:00 PM</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2:00 - 3:00 PM</td>
+                            <td></td>
+                            <td></td>
+                            <td>Base de Datos II</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3:00 - 4:00 PM</td>
+                            <td></td>
+                            <td></td>
+                            <td>Base de Datos II</td>
+                            <td>Matemática Discreta para Computación</td>
+                            <td>Matemática Discreta para Computación</td>
+                        </tr>
+                        <tr>
+                            <td>4:00 - 5:00 PM</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Matemática Discreta para Computación</td>
+                            <td>Matemática Discreta para Computación</td>
+                        </tr>
+                        <tr>
+                            <td>5:00 - 6:00 PM</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Matemática Discreta para Computación</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>6:00 - 7:00 PM</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>7:00 - 8:00 PM</td>
+                            <td>Estadística Básica</td>
+                            <td>Cálculo II</td>
+                            <td></td>
+                            <td>Estadística Básica</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>8:00 - 9:00 PM</td>
+                            <td>Estadística Básica</td>
+                            <td>Cálculo II</td>
+                            <td>Estructura de Datos</td>
+                            <td>Estadística Básica</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9:00 - 10:00 PM</td>
+                            <td>Estadística Básica</td>
+                            <td></td>
+                            <td>Estructura de Datos</td>
+                            <td>Estadística Básica</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mi Perfil Académico. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
